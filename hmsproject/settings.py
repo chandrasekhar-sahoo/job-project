@@ -114,10 +114,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-import django_heroku
-# Then all the way at the bottom of the file
-# ...
-django_heroku.settings(locals())
 
 
 
